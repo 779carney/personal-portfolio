@@ -1,11 +1,24 @@
 
 import './App.css'
+import AboutMe from './components/AboutMe'
+import ContactMe from './components/ContactMe'
+import Footer from './components/Footer'
+import NavBar from './components/NavBar'
+import Projects from './components/Projects'
+import TechStack from './components/TechStack'
 
 function App() {
 
 
   return (
-    <h1 className="text-3xl font-bold underline text-center">Hello world!</h1> 
+    <>
+    <NavBar/>
+    <AboutMe/>
+    <TechStack/>
+    <Projects/>
+    <ContactMe/>
+    <Footer/>
+    </>
   )
   }
     
