@@ -17,7 +17,7 @@ links:['https://the-latest-northcoders-news.netlify.app/', 'https://github.com/7
             title: 'Rent a campervan',
         techStack: ['mongoDb', 'Express','superTest', 'React native', 'Expo'],
         description: 'The campervan rental app was a group project where i primarly worked on the back end',
-        img:'img/backend.png',
+        img:'img/camper.png',
         links:['https://northcoders.com/projects/june-2023/rent-a-campervan', 'https://github.com/779carney/camper-van-app']
             }
 ]
