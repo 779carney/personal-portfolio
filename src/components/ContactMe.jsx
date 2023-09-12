@@ -2,17 +2,17 @@ function ContactMe(){
 
     return (
 
-<div id="contact-me" className="flex min-h-screen items-center justify-start bg-white mt-2">
-  <div className="mx-auto w-full max-w-lg">
-    <h1 className="text-4xl font-medium">Contact us</h1>
-    <p className="mt-3">Email us at help@domain.com or message us here:</p>
+<div id="contact-me" className="flex mt-10 items-center justify-start bg-white ">
+  <div className="mx-auto w-full max-w-lg mt-16">
+    <h1 className="text-4xl font-medium ">Contact me</h1>
+   
 
     <form action="https://api.web3forms.com/submit" className="mt-10">
 {/*     
     <!-- This is a working contact form. 
          Get your free access key from: https://web3forms.com/  --> */}
 
-      <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" /> 
+      <input type="hidden" name="access_key" value="" /> 
       <div className="grid gap-6 sm:grid-cols-2">
         <div className="relative z-0">
           <input type="text" name="name" className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0" placeholder=" " />
