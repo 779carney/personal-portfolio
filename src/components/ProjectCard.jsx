@@ -10,7 +10,7 @@ function ProjectCard({projects, handleClick}){
                 <div className=" m-8  rounded overflow-hidden shadow-xl bg-white hover:bg-slate-50 active:bg-slate-100 focus:outline-none focus:ring focus:ring-violet-300" key={item.id}>
                     <div className="px-6 py-4 h-76">
                         <div className=" text-center font-bold text-xl mb-2">{item.title}</div>
-                        <img className="h-28 mx-auto " src={`../${item.img}`}></img>
+                        <img className="h-28 mx-auto " src={`../${item.img}`} alt={`${item.title} screenshot`}></img>
                         <p className="text-gray-700 text-left mt-3 dark:bg-slate-800 dark:text-white" > - {item.description}</p>
                         <p className="text-gray-700 text-left dark:bg-slate-800 dark:text-white"> - {item.type}</p>
                         <div className="flex justify-end	dark:bg-slate-800 dark:text-white">
