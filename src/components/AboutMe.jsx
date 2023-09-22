@@ -10,8 +10,8 @@ function AboutMe(){
         During my time in the retail sector, I gained essential skills such as understanding customer needs, effective communication, problem-solving, and consistently meeting targets. Working within diverse teams taught me the value of teamwork and the strength that comes from collective effort.
         </p>
         </div>
-        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex rounded-lg">
-            <img src="../img/me.png" alt="A photo of me next to the northcoders sign" className="rounded-lg"/>
+        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex rounded-lg ">
+            <img src="../img/me3.png" alt="A photo of me next to the northcoders sign" className="rounded-lg "/>
         </div>                
     </div>
 </section>
