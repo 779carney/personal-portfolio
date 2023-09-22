@@ -6,7 +6,7 @@ function TechStackCard({ projects, handleClickBack, id }) {
 
     return (
 
-        <section className="grid px-10 mt-10 md:grid-cols-2 lg:grid-cols-3 gap-10" id='Projects'>
+        <section className="grid mt-10  sm:grid-cols-1md:grid-cols-2 lg:grid-cols-3 gap-10" id='Projects'>
 
 
             {projects.map((item) => (
@@ -23,7 +23,7 @@ function TechStackCard({ projects, handleClickBack, id }) {
 
                             })}
                             <div className="flex justify-end	dark:bg-slate-800 dark:text-white">
-                                <button className=" bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-14 ml-2 mb-0" ><a href={item.links[0]} target="_blank">Go to Project</a></button>
+                                <button className=" bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded  ml-2 mb-0" ><a href={item.links[0]} target="_blank">Go to Project</a></button>
                                 <button className=" bg-blue-500 mb-0 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4 " onClick={() => { handleClickBack(item.id) }} >Info</button>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ function TechStackCard({ projects, handleClickBack, id }) {
                         <p className="text-gray-700 text-left mt-3 dark:bg-slate-800 dark:text-white" > - {item.description}</p>
                         <p className="text-gray-700 text-left dark:bg-slate-800 dark:text-white"> - {item.type}</p>
                         <div className="flex justify-end	dark:bg-slate-800 dark:text-white">
-                            <button className=" bg-blue-500 mt-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-14 ml-2 mb-0" ><a href={item.links[0]} target="_blank">Go to Project</a></button>
+                            <button className=" bg-blue-500 mt-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded  ml-2 mb-0" ><a href={item.links[0]} target="_blank">Go to Project</a></button>
                             <button className=" bg-blue-500 mt-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4" onClick={() => { handleClickBack(item.id) }} >Tech Stack</button>
                         </div>
                     </div>
