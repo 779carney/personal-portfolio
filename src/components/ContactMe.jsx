@@ -77,7 +77,7 @@ if(isSuccessfull){
 }
     return (
 
-<div id="contact-me" className="flex mt-10 items-center justify-start bg-white ">
+<div id="contact-me" className="flex mt-10 items-center justify-start bg-white px-4  ">
   <div className="mx-auto w-full max-w-lg mt-16">
     <h1 className="text-4xl font-medium ">Contact me</h1>
    
