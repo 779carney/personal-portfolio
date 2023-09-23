@@ -4,14 +4,14 @@ import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons';
 function Footer(){
     return (
         <>
-        <footer className="bg-white dark:bg-gray-900 mt-10">
+        <footer className="bg-white mt-10">
             <div className="container px-6 py-8 mx-auto">
                 <div className="flex flex-col items-center text-center">
                     <a href="#">
                         <img className="w-auto h-20" src="../img/logo.png" alt=""/>
                     </a>
         
-                    <p className="max-w-md mx-auto mt-4 text-gray-500 dark:text-gray-400">Thank you for visiting my page.</p>
+                    <p className="max-w-md mx-auto mt-4 text-gray-500">Thank you for visiting my page.</p>
         
                  
                 </div>
