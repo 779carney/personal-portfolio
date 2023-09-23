@@ -22,7 +22,7 @@ function TechStackCard({ projects, handleClickBack, id }) {
                                 </ul>
 
                             })}
-                            <div className="flex justify-end	dark:bg-slate-800 dark:text-white">
+                            <div className="flex justify-end">
                                 <button className=" bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded  ml-2 mb-0" ><a href={item.links[0]} target="_blank">Go to Project</a></button>
                                 <button className=" bg-blue-500 mb-0 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4 " onClick={() => { handleClickBack(item.id) }} >Info</button>
                             </div>
