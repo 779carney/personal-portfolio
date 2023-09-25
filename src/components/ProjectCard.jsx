@@ -12,7 +12,7 @@ function ProjectCard({ projects, handleClick }) {
                         <div className=" text-center font-bold text-xl mb-2">{item.title}</div>
                         <img className="h-28 mx-auto " src={`../${item.img}`} alt={`${item.title} screenshot`}></img>
                         <p className="text-gray-700 text-left mt-3" > - {item.description}</p>
-                        <p className="text-gray-700 text-left"> - {item.type}</p>
+          
                         <div className="  flex justify-end ">
                             <button className=" bg-blue-500 mt-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded  ml-2 mb-0 " ><a href={item.links[0]} target="_blank">Go to Project</a></button>
                             <button className=" bg-blue-500 mt-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4 " onClick={() => { handleClick(item.id) }} >Tech Stack</button>
