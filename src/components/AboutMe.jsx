@@ -11,7 +11,7 @@ function AboutMe(){
         </p>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex rounded-lg ">
-            <img src="../img/me3.png" alt="A photo of me next to the northcoders sign" className="rounded-lg "/>
+            <img src="../img/meEdited.jpeg" alt="A photo of me next to the northcoders sign" className="rounded-lg "/>
         </div>                
     </div>
 </section>
