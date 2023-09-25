@@ -8,7 +8,7 @@ function Footer(){
             <div className="container px-6 py-8 mx-auto">
                 <div className="flex flex-col items-center text-center">
                     <a href="#">
-                        <img className="w-auto h-20" src="../img/logo.png" alt=""/>
+                        <img className="w-auto h-20" src="../img/logoBlack3.png" alt='logo consisiting of an @ sign looking like a dream catcher with { as the feathers with my initials'/>
                     </a>
         
                     <p className="max-w-md mx-auto mt-4 text-gray-500">Thank you for visiting my page.</p>
