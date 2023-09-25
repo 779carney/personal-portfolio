@@ -42,12 +42,14 @@ function ContactMe() {
         }),
 
       }).then(() => {
-        setTimeout(() => {
-                setIsAlertVisible(false);
-              }, 3000); 
+       
         setEmail('');
         setMessage('');
         setFormName('')
+        
+        setTimeout(() => {
+          setIsAlertVisible(false);
+        }, 3000); 
         
       }).catch((err) => {
         console.log(err);
