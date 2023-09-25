@@ -1,5 +1,5 @@
 
-import { useState , useEffect} from "react";
+import { useState  } from "react";
 
 function ContactMe() {
 
@@ -9,17 +9,6 @@ function ContactMe() {
   const [isSuccessfull, setIsSuccessfull] = useState(false);
   const [isAlertVisible, setIsAlertVisible] = useState(false);
   const [validMessage, setValidMessage] = useState(true);
-
-  useEffect(() => {
-    if (isAlertVisible) {
-      const timeoutId = setTimeout(() => {
-        setIsAlertVisible(false);
-      }, 3000); 
-      return () => clearTimeout(timeoutId);
-    }
-  }, [isAlertVisible]);
-
-     
 
 
   const encode = (data) => {
@@ -53,7 +42,9 @@ function ContactMe() {
         }),
 
       }).then(() => {
-      
+        setTimeout(() => {
+                setIsAlertVisible(false);
+              }, 3000); 
         setEmail('');
         setMessage('');
         setFormName('')
